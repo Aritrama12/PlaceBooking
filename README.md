@@ -1,14 +1,14 @@
-🏠 PlaceBooking – Property Rental & Booking Platform
+##🏠 PlaceBooking – Property Rental & Booking Platform
 
 PlaceBooking is a full-stack property rental and booking web application that allows users to list accommodations, browse properties, and securely book rentals online. The backend is built with Node.js, Express, and MongoDB, while the frontend is deployed on Netlify and backend on Render.
 
-🚀 Live Deployment
+##🚀 Live Deployment
 
 Frontend (Netlify):https://nimble-gingersnap-ed44a5.netlify.app/
 
 Backend (Render): https://placebooking.onrender.com
 
-🛠 Tech Stack
+##🛠 Tech Stack
 🔹 Frontend
 
 React.js
@@ -43,7 +43,7 @@ Mailtrap (Email Testing)
 
 Render (Deployment)
 
-📂 Project Structure
+##📂 Project Structure
 backend/
 │
 ├── controllers/
@@ -62,7 +62,7 @@ backend/
 ├── index.js
 ├── .env
 
-🔐 Authentication Features
+##🔐 Authentication Features
 
 User Signup
 
@@ -91,7 +91,7 @@ POST   /api/v1/rent/user/forgotPassword
 PATCH  /api/v1/rent/user/resetPassword/:token
 GET    /api/v1/rent/user/me
 
-🏡 Property Features
+##🏡 Property Features
 
 Create Property (Protected)
 
@@ -108,7 +108,7 @@ GET    /api/v1/rent/listing/:id
 POST   /api/v1/rent/user/newAccommodation
 GET    /api/v1/rent/user/myAccommodation
 
-📅 Booking Features
+##📅 Booking Features
 
 Create Booking Order
 
@@ -126,7 +126,7 @@ POST   /api/v1/rent/user/booking/create-order
 POST   /api/v1/rent/user/booking/verify-payment
 
 
-🔄 Axios Configuration (Frontend)
+##🔄 Axios Configuration (Frontend)
 import axios from "axios";
 import qs from "qs";
 
@@ -136,14 +136,16 @@ export const axiosInstance = axios.create({
   paramsSerializer: (params) =>
     qs.stringify(params, { arrayFormat: "repeat" }),
 });
-⚙️ CORS Configuration (Backend)
+
+##⚙️ CORS Configuration (Backend)
 app.use(
   cors({
     origin: process.env.ORIGIN_ACCESS_URL,
     credentials: true,
   })
 );
-📦 Installation (Local Setup)
+
+##📦 Installation (Local Setup)
 1️⃣ Clone Repository
 git clone https://github.com/yourusername/placebooking.git
 2️⃣ Backend Setup
@@ -199,7 +201,7 @@ Environment Variable Protection
 
 Secure MongoDB Atlas Connection
 
-📈 Future Improvements
+##📈 Future Improvements
 
 Admin Dashboard
 
@@ -213,7 +215,7 @@ Location-based Property Search
 
 Real-time Notifications
 
-👨‍💻 Author
+##👨‍💻 Author
 
 Developed by Aritra Manna
 Full Stack Developer | MERN Stack Enthusiast
