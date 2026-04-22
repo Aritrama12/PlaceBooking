@@ -1,4 +1,4 @@
-##🏠 PlaceBooking – Property Rental & Booking Platform
+##🏠 PlaceBooking 
 
 PlaceBooking is a full-stack property rental and booking web application that allows users to list accommodations, browse properties, and securely book rentals online. The backend is built with Node.js, Express, and MongoDB, while the frontend is deployed on Netlify and backend on Render.
 
