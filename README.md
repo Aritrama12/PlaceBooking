@@ -4,7 +4,7 @@ PlaceBooking is a full-stack property rental and booking web application that al
 
 ##🚀 Live Deployment
 
-Frontend (Netlify):https://nimble-gingersnap-ed44a5.netlify.app/
+Frontend (Netlify):https://lighthearted-cupcake-fd9b2a.netlify.app/
 
 Backend (Render): https://placebooking.onrender.com
 
